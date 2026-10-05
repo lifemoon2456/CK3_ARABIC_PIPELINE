@@ -1,0 +1,55 @@
+var_ref (correct as-is): 797
+pure_code (correct as-is): 585
+mixed_code (mostly ok): 0
+PROSE (genuine leftovers): 47
+
+=== PROSE LIST ===
+event_localization/DP_char_editor_events_l_english.yml | build_gold_cost | @gold_icon! $MOD_CONSTRUCTION_GOLD_COST$
+event_localization/DP_char_editor_events_l_english.yml | build_piety_cost | @piety_icon! $MOD_CONSTRUCTION_PIETY_COST$
+event_localization/DP_char_editor_events_l_english.yml | build_prestige_cost | @prestige_icon! $MOD_CONSTRUCTION_PRESTIGE_COST$
+event_localization/DP_char_editor_events_l_english.yml | holding_build_gold_cost | @gold_icon! $MOD_HOLDING_CONSTRUCTION_GOLD_COST$
+event_localization/DP_char_editor_events_l_english.yml | holding_build_piety_cost | @piety_icon! $MOD_HOLDING_CONSTRUCTION_PIETY_COST$
+event_localization/DP_char_editor_events_l_english.yml | holding_build_prestige_cost | @prestige_icon! $MOD_HOLDING_CONSTRUCTION_PRESTIGE_COST$
+event_localization/DP_char_editor_events_l_english.yml | build_gold_cost_neg | @gold_icon! $MOD_CONSTRUCTION_GOLD_COST$
+event_localization/DP_char_editor_events_l_english.yml | build_piety_cost_neg | @piety_icon! $MOD_CONSTRUCTION_PIETY_COST$
+event_localization/DP_char_editor_events_l_english.yml | build_prestige_cost_neg | @prestige_icon! $MOD_CONSTRUCTION_PRESTIGE_COST$
+event_localization/DP_char_editor_events_l_english.yml | holding_build_gold_cost_neg | @gold_icon! $MOD_HOLDING_CONSTRUCTION_GOLD_COST$
+event_localization/DP_char_editor_events_l_english.yml | holding_build_piety_cost_neg | @piety_icon! $MOD_HOLDING_CONSTRUCTION_PIETY_COST$
+event_localization/DP_char_editor_events_l_english.yml | holding_build_prestige_cost_neg | @prestige_icon! $MOD_HOLDING_CONSTRUCTION_PRESTIGE_COST$
+event_localization/DP_currency_menu_events_l_english.yml | dp_char_interactions.gold.event.t | @gold_icon! $GOLD_CONCEPT$
+event_localization/DP_currency_menu_events_l_english.yml | dp_char_interactions.prestige.event.t | @prestige_icon! $PRESTIGE_CONCEPT$
+event_localization/DP_currency_menu_events_l_english.yml | dp_char_interactions.piety.event.t | @piety_icon! $PIETY_CONCEPT$
+event_localization/DP_currency_menu_events_l_english.yml | dp_char_interactions.renown.event.t | @dynasty_prestige_icon! $DYNASTY_PRESTIGE_CONCEPT$
+event_localization/DP_currency_menu_events_l_english.yml | dp_char_interactions.influence.event.t | @influence_icon! [influence|E]
+event_localization/DP_currency_menu_events_l_english.yml | dp_char_interactions.legitimacy.event.t | @legitimacy_icon! [legitimacy|E]
+event_localization/DP_currency_menu_events_l_english.yml | dp_char_interactions.herd.event.t | @herd_icon! [herd|E]
+event_localization/DP_currency_menu_events_l_english.yml | dp_char_interactions.stress.event.t | @stress_icon! [stress|E]
+event_localization/DP_currency_menu_events_l_english.yml | dp_char_interactions.tyranny.event.t | @tyranny_icon! [tyranny|E]
+event_localization/DP_currency_menu_events_l_english.yml | dp_char_interactions.dread.event.t | @dread_icon! [dread|E]
+event_localization/DP_currency_menu_events_l_english.yml | zhuge_char_interactions.huangquan.event.t | @huangquan_icon! [huangquan|E]
+event_localization/DP_currency_menu_events_l_english.yml | zhuge_char_interactions.shuiliang.event.t | @shuiliang_icon! [shuiliang|E]
+event_localization/DP_currency_menu_events_l_english.yml | zhuge_char_interactions.neitang.event.t | @neitang_icon! [neitang|E]
+event_localization/DP_currency_menu_events_l_english.yml | zhuge_char_interactions.duanpi.event.t | @duanpi_icon! [duanpi|E]
+event_localization/DP_currency_menu_events_l_english.yml | zhuge_char_interactions.cangshu.event.t | @cangshu_icon! [cangshu|E]
+event_localization/DP_currency_menu_events_l_english.yml | zhuge_char_interactions.gongliao.event.t | @gongliao_icon! [gongliao|E]
+event_localization/DP_currency_menu_events_l_english.yml | zhuge_char_interactions.junqi.event.t | @junqi_icon! [junqi|E]
+skonester_officials_l_english.yml | skonester_cheat_menu.3063.stress_plus_50 | #color_white [stress|E] +50#!
+skonester_officials_l_english.yml | skonester_cheat_menu.3063.stress_minus_50 | #color_black [stress|E] -50#!
+skonester_officials_l_english.yml | skonester_cheat_menu.3063.stress_plus_100 | #color_white [stress|E] +100#!
+skonester_officials_l_english.yml | skonester_cheat_menu.3063.stress_minus_100 | #color_black [stress|E] -100#!
+skonester_officials_l_english.yml | skonester_cheat_menu.res.plus_5000 | #color_white +5000#!
+skonester_officials_l_english.yml | skonester_cheat_menu.res.plus_10000 | #color_white +10000#!
+skonester_officials_l_english.yml | skonester_cheat_menu.0075.plus_10 | #color_white +10#!
+skonester_officials_l_english.yml | skonester_cheat_menu.0075.plus_20 | #color_white +20#!
+skonester_officials_l_english.yml | skonester_cheat_menu.0075.plus_30 | #color_white +30#!
+skonester_option_icons_l_english.yml | skonester_cheat_menu.0155.opt_gender_dyn | @skill_learning_icon! [recipient.Custom('skonester_spawn_talent_hub_gender_btn')]
+skonester_option_icons_l_english.yml | skonester_cheat_menu.0180.opt_culture_dyn | @piety_icon! [recipient.Custom('skonester_companion_hub_culture_option_line')]
+skonester_option_icons_l_english.yml | skonester_cheat_menu.0180.opt_gender_dyn | @skill_learning_icon! [recipient.Custom('skonester_companion_hub_gender_btn')]
+skonester_yyz_l_english.yml | YYZ_CHARACTER_LIST_VIEW_GOLD | @gold_icon! [Character.GetGold|0]
+skonester_yyz_l_english.yml | YYZ_CHARACTER_LIST_VIEW_PRESTIGE | @prestige_icon! [Character.GetPrestige|0]
+skonester_yyz_l_english.yml | YYZ_CHARACTER_LIST_VIEW_PIETY | @piety_icon! [Character.GetPiety|0]
+skonester_yyz_l_english.yml | YYZ_ARMY_SPEED_DISPLAY | @movement_speed_icon! [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('yyz_movement_speed')|0]
+skonester_yyz_l_english.yml | YYZ_TRAVEL_SPEED_DISPLAY | @travel_speed_icon! [Max_CFixedPoint(Character.GetTravelSpeedAptitude, '(CFixedPoint)0' )|0]
+skonester_yyz_l_english.yml | YYZ_TRAVEL_SAFETY_DISPLAY | @travel_safety_icon! [Max_CFixedPoint(Character.GetTravelSafetyAptitude, '(CFixedPoint)0' )|0]
+
+=== MIXED_CODE LIST ===

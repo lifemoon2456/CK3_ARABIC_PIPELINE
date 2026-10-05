@@ -1,0 +1,55 @@
+============================================================
+VALIDATION REPORT
+============================================================
+files checked: 93
+keys compared: 15928
+files with key mismatch: 0
+\n-count mismatches: 0
+container [..] mismatches: 3
+  new_tocmod_l_english.yml | toc_big_war_desc | old=['[war|E]', '[kingdom|E]', '[title|E]'] new=['[war|E]', '[title|E]', '[kingdom|E]']
+  skone_succession_laws_l_english.yml | peasant_elective_succession_law_effects | old=['[ruler|E]', '[vassals|E]', '[title_heir|E]', '[close_family|E]', '[voting_power|E]', '[succession_law|E]', '[elector|E]', '[domain|E]', '[county_development|E]', '[county_opinion|E]', '[capital|E]', '[county_opinion|E]'] new=['[ruler|E]', '[vassals|E]', '[title_heir|E]', '[close_family|E]', '[voting_power|E]', '[succession_law|E]', '[domain|E]', '[county_development|E]', '[county_opinion|E]', '[elector|E]', '[capital|E]', '[county_opinion|E]']
+  skone_succession_laws_l_english.yml | skone_theocratic_elective_succession_law_effects | old=['[de_jure|E]', '[vassals|E]', '[title_heir|E]', '[close_family|E]', '[claimant|E]', '[voting_power|E]', '[succession_law|E]', '[elector|E]', '[title_tier|E]', '[piety_level|E]', '[virtuous|E]', '[traits|E]', '[piety_level|E]', '[virtuous|E]', '[traits|E]'] new=['[de_jure|E]', '[vassals|E]', '[title_heir|E]', '[close_family|E]', '[claimant|E]', '[voting_power|E]', '[succession_law|E]', '[title_tier|E]', '[piety_level|E]', '[virtuous|E]', '[traits|E]', '[elector|E]', '[piety_level|E]', '[virtuous|E]', '[traits|E]']
+escape mismatches: 0
+format-code mismatches: 0
+unbalanced quote lines: 0
+values still fully English (candidates for re-run): 1429
+  DB_buildings_l_english.yml | building_db_tomb_ancestors_01_desc | $building_type_db_tomb_ancestors_01_desc$
+  DB_buildings_l_english.yml | building_db_hall_pillage_01_desc | $building_type_db_hall_pillage_01_desc$
+  DB_buildings_l_english.yml | building_db_hall_pillage_02_desc | $building_type_db_hall_pillage_01_desc$
+  DB_buildings_l_english.yml | building_db_steppe_pillage_01_desc | $building_type_db_hall_pillage_01_desc$
+  DB_buildings_l_english.yml | building_db_steppe_pillage_02_desc | $building_type_db_hall_pillage_01_desc$
+  DB_buildings_l_english.yml | building_db_gigantic_idol_01_desc | $building_type_db_gigantic_idol_01_desc$
+  DB_buildings_l_english.yml | building_db_gigantic_idol_02_desc | $building_type_db_gigantic_idol_01_desc$
+  DB_buildings_l_english.yml | building_db_royal_mosque_01_desc | $building_type_db_royal_mosque_01_desc$
+  DB_buildings_l_english.yml | building_db_royal_chapel_01_desc | $building_type_db_royal_chapel_01_desc$
+  DB_buildings_l_english.yml | building_db_insular_monas_01_desc | $building_type_db_insular_monas_01_desc$
+  DB_buildings_l_english.yml | building_db_caravan_sarai_01_desc | $building_type_db_caravan_sarai_01_desc$
+  DB_buildings_l_english.yml | building_db_caravan_sarai_02_desc | $building_type_db_caravan_sarai_01_desc$
+  DB_buildings_l_english.yml | building_db_caravan_sarai_03_desc | $building_type_db_caravan_sarai_01_desc$
+  DB_buildings_l_english.yml | building_db_statue_horse_01_desc | $building_type_db_statue_horse_01_desc$
+  DB_buildings_l_english.yml | building_db_lighthouse_01_desc | $building_type_db_lighthouse_01_desc$
+  DB_buildings_l_english.yml | building_db_mercenary_camp_01_desc | $building_type_db_mercenary_camp_01_desc$
+  DB_buildings_l_english.yml | building_db_things_01_desc | $building_type_db_things_01_desc$
+  DB_buildings_l_english.yml | building_db_fair_01_desc | $building_type_db_fair_01_desc$
+  DB_buildings_l_english.yml | building_db_fair_02_desc | $building_type_db_fair_01_desc$
+  DB_buildings_l_english.yml | building_db_royal_cynagogue_01_desc | $building_type_db_royal_cynagogue_01_desc$
+  DB_buildings_l_english.yml | building_db_royal_hindu_01_desc | $building_type_db_royal_cynagogue_01_desc$
+  DB_buildings_l_english.yml | building_db_statue_ruler_01_desc | $building_type_db_statue_ruler_01_desc$
+  DB_buildings_l_english.yml | building_db_menagerie_01_desc | $building_type_db_menagerie_01_desc$
+  DB_buildings_l_english.yml | building_db_rabbi_council_01_desc | $building_type_db_rabbi_council_01_desc$
+  DP_interactions_l_english.yml | are_you_sure_tt | $generic_proceed$
+  DP_interactions_l_english.yml | change_suc_tt | $generic_proceed$
+  DP_interactions_l_english.yml | change_govt_tt | $generic_proceed$
+  ch_specialinteractions_l_english.yml | CH_SELECT_HOLDING_TOOLTIP | #T [Select_CString( DecisionViewWidgetSelectBarony.HasValidTitles, '$CH_SELECT_HOLDING_TIT
+  debug_l_english.yml | debug_generic_option_can_disable | $debug_generic_option$$debug_generic_option_can_disable_text$
+  debug_l_english.yml | debug_generic_option_shortened_trigger_can_disable | $debug_generic_option_shortened_trigger$$debug_generic_option_can_disable_text$
+  debug_l_english.yml | debug_change_every_county.b.a | $debug_change_every_county.b$ $game_concept_high$
+  debug_l_english.yml | set_relation_debug | $set_relation_interaction$
+  debug_l_english.yml | generate_artifact_with_history_debug_name | $generate_artifact_with_history_interaction$
+  debug_l_english.yml | spawn_epidemic_interaction_measles | [GetTrait('measles').GetName( GetNullCharacter )]
+  debug_l_english.yml | spawn_epidemic_interaction_consumption | [GetTrait('consumption').GetName( GetNullCharacter )]
+  debug_l_english.yml | spawn_epidemic_interaction_smallpox | [GetTrait('smallpox').GetName( GetNullCharacter )]
+  debug_l_english.yml | spawn_epidemic_interaction_ergotism | [GetTrait('ergotism').GetName( GetNullCharacter )]
+  debug_l_english.yml | spawn_epidemic_interaction_bubonic_plague | [GetTrait('bubonic_plague').GetName( GetNullCharacter )]
+  debug_l_english.yml | spawn_epidemic_interaction_typhus | [GetTrait('typhus').GetName( GetNullCharacter )]
+  debug_l_english.yml | spawn_epidemic_interaction_dysentery | [GetTrait('dysentery').GetName( GetNullCharacter )]
